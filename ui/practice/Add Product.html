@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/Add Product.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	
+	<div class="container-fluid" style="background-color:#f2f2f2;">
+		<img class="nav navbar-nav head-img" src="images/logo2.png">
+		
+		<form class="navbar-form navbar-nav head-form" action="/action_page.php">
+	      	<div class="input-group">
+	        <input type="text" class="form-control" placeholder="Search" name="search" style="border-style:hidden;border-radius:20px 0px 0px 20px;">
+	        <div class="input-group-btn">
+	          <button class="btn btn-default" type="submit" style="border-style:hidden;border-radius:12px;border-radius:0px 20px 20px 0px;">
+	            <i class="glyphicon glyphicon-search"></i>
+	          </button>
+	        </div>
+	      </div>
+   		</form>
+   		
+   		<div class="nav navbar-nav head-bell"><a href="#" ><span class="glyphicon glyphicon-bell" style="color:#808080;"></span></a></div>
+   		<div class="nav navbar-nav head-profile">Welcome,Admin &ltName&gt...</div>
+   		<div class="nav navbar-nav head-logout"><input class="logout" type="submit" name="logout" value="Logout"></div>
+	</div>
+	<br>
+	<div>
+		<div class="nav navbar-nav profile-card col-lg-2">
+	  		<div class="card" style="margin:10px;background-color:#b3b3b3;height:50px;color:#ffffff;">PROFILE</div>
+	  		<div class="card" style="background-color:#a6a6a6;margin-left:50px;margin-right:50px;margin-bottom:10px;">
+	    		<img class="card-img-top" src="images/profile.png" alt="Card image">
+	  		</div>
+	  		<div class="card" style="margin-left:90px;margin-right:90px;">
+	  			<strong>Helen Cho</strong>
+	  		</div><br>
+	  		
+	  		<div class="card" style="color:#1a1a1a;margin-left:120px;margin-right:90px;">
+	  			ID
+	  		</div>
+	  		<div class="card" style="color:#b3b3b3;margin-left:90px;margin-right:90px;">
+	  			GRZLY17234
+	  		</div><br>
+	  		<div class="card" style="color:#1a1a1a;margin-left:90px;margin-right:90px;">
+	  			Designation
+	  		</div>
+	  		<div class="card" style="color:#b3b3b3;margin-left:100px;margin-right:90px;">
+	  			Sr.Admin
+	  		</div><br>
+	  		<div class="card" style="color:#1a1a1a;margin-left:110px;margin-right:90px;">
+	  			Office
+	  		</div>
+	  		<div class="card" style="color:#b3b3b3;margin-left:90px;margin-right:90px;margin-bottom:100px">
+	  			NYC,NY,USA
+	  		</div>
+		</div>
+		<div class="container content col-lg-8">
+			<ul class="nav nav-pills nav-default red">
+			  <li class="active list-select"><a data-toggle="pill" href="#products">PRODUCTS</a></li>
+			  <li class="list-select"><a data-toggle="pill" href="#vendors">VENDORS</a></li>
+			  <li class="list-select"><a data-toggle="pill" href="#catagory">CATAGORY</a></li>
+			</ul>
+			
+			<div class="tab-content">
+			    <div id="products" class="tab-pane fade in active">
+			      <img class="img-product" src="images/addproduct.png" alt="add product">
+			    </div>
+			    <div id="vendors" class="tab-pane fade">
+			      <h3>Menu 1</h3>
+			    </div>
+			    <div id="catagory" class="tab-pane fade"></div>
+			    
+			 </div>
+			 
+		</div>
+		
+	</div>
+</body>
+</html>
